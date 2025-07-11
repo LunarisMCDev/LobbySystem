@@ -6,10 +6,10 @@ broadcast:
     - '&6[EVENT] &fSommer-Event läuft noch bis zum 20.07!'
     - '&6[NEU] &fCitybuild 2.0 jetzt mit neuen Grundstücken!'
 
-join:
-  title: '&6★ &eWillkommen auf &lLUNARISMC.de &6★'
-  subtitle: '&7Version: &f1.8 - 1.21'
-  sound: LEVEL_UP
+  join:
+    title: '&6★ &eWillkommen auf &lLUNARISMC.de &6★'
+    subtitle: '&7Version: &f1.8 - 1.21'
+    sound: ENTITY_PLAYER_LEVELUP
   items:
     navigator:
       slot: 0

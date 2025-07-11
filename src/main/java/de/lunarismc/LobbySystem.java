@@ -201,10 +201,15 @@ public class LobbySystem extends JavaPlugin implements Listener {
         String subtitle = ChatColor.translateAlternateColorCodes('&', getConfig().getString("join.subtitle", ""));
         p.sendTitle(title, subtitle, 10, 60, 10);
         Sound s;
+        String soundName = getConfig().getString("join.sound", "ENTITY_PLAYER_LEVELUP");
         try {
-            s = Sound.valueOf(getConfig().getString("join.sound", "LEVEL_UP"));
+            s = Sound.valueOf(soundName);
         } catch (IllegalArgumentException ex) {
-            s = Sound.LEVEL_UP;
+            try {
+                s = Sound.valueOf("LEVEL_UP");
+            } catch (IllegalArgumentException ignored) {
+                s = Sound.ENTITY_PLAYER_LEVELUP;
+            }
         }
         p.playSound(p.getLocation(), s, 1f, 1f);
         setLobbyItems(p);

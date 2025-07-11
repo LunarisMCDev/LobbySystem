@@ -9,6 +9,7 @@ an example implementation for the author **DerGamer09** and targets API version
 - Configurable navigator GUI
 - Join items with custom commands
 - Automatic broadcast messages
+- Customisable join title and sound
 - Random mode selector
 - Basic protection of the lobby world
 - `/lobbyreload` command to reload the configuration
