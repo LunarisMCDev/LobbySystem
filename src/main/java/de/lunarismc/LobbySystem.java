@@ -202,9 +202,9 @@ public class LobbySystem extends JavaPlugin implements Listener {
         p.sendTitle(title, subtitle, 10, 60, 10);
         Sound s;
         try {
-            s = Sound.valueOf(getConfig().getString("join.sound", "LEVEL_UP"));
+            s = Sound.valueOf(getConfig().getString("join.sound", "ENTITY_PLAYER_LEVELUP"));
         } catch (IllegalArgumentException ex) {
-            s = Sound.LEVEL_UP;
+            s = Sound.ENTITY_PLAYER_LEVELUP;
         }
         p.playSound(p.getLocation(), s, 1f, 1f);
         setLobbyItems(p);
