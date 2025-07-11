@@ -1,0 +1,19 @@
+name: LobbySystem
+version: 1.0
+main: de.lunarismc.LobbySystem
+author: DerGamer09
+api-version: '1.21'
+description: Simple lobby system with navigator GUI and configurable features.
+commands:
+  navigator:
+    description: Öffnet den Navigator.
+  profil:
+    description: Öffnet dein Profil.
+  neuigkeiten:
+    description: Zeigt Neuigkeiten an.
+  kosmetik:
+    description: Öffnet das Kosmetik-Menü.
+  zufall:
+    description: Startet einen zufälligen Modus.
+  lobbyreload:
+    description: Lädt die Lobby-Konfiguration neu.
