@@ -1,0 +1,78 @@
+broadcast:
+  interval: 180
+  messages:
+    - '&6[INFO] &fBesuche unsere Webseite: &bwww.LunarisMC.de'
+    - '&6[TIPP] &fVote täglich und erhalte Belohnungen!'
+    - '&6[EVENT] &fSommer-Event läuft noch bis zum 20.07!'
+    - '&6[NEU] &fCitybuild 2.0 jetzt mit neuen Grundstücken!'
+
+join:
+  title: '&6★ &eWillkommen auf &lLUNARISMC.de &6★'
+  subtitle: '&7Version: &f1.8 - 1.21'
+  sound: LEVEL_UP
+  items:
+    navigator:
+      slot: 0
+      material: COMPASS
+      name: '&bNavigator'
+      command: 'navigator'
+    profil:
+      slot: 1
+      material: EMERALD
+      name: '&aProfil'
+      command: 'profil'
+    neuigkeiten:
+      slot: 4
+      material: BOOK
+      name: '&eNeuigkeiten'
+      command: 'neuigkeiten'
+    kosmetik:
+      slot: 7
+      material: BLAZE_POWDER
+      name: '&dKosmetik'
+      command: 'kosmetik'
+    zufall:
+      slot: 8
+      material: REDSTONE
+      name: '&cZufälliger Modus'
+      command: 'zufall'
+
+random_modes:
+  - Citybuild
+  - Survival
+  - Minigames
+
+navigator:
+  size: 27
+  title: '&b&lNavigator'
+  items:
+    citybuild:
+      slot: 10
+      material: GRASS_BLOCK
+      name: '&aCitybuild'
+      command: 'say Verbinde zu Citybuild'
+    survival:
+      slot: 11
+      material: DIAMOND
+      name: '&bSurvival'
+      command: 'say Verbinde zu Survival'
+    minigames:
+      slot: 12
+      material: TNT
+      name: '&cMinigames'
+      command: 'say Verbinde zu Minigames'
+    bedwars:
+      slot: 13
+      material: BED
+      name: '&dBedWars'
+      command: 'say Verbinde zu BedWars'
+    events:
+      slot: 14
+      material: FIREWORK_ROCKET
+      name: '&eEvents'
+      command: 'say Verbinde zu Events'
+    close:
+      slot: 22
+      material: BARRIER
+      name: '&7Schließen'
+      command: 'close'
