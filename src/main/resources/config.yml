@@ -9,7 +9,7 @@ broadcast:
 join:
   title: '&6★ &eWillkommen auf &lLUNARISMC.de &6★'
   subtitle: '&7Version: &f1.8 - 1.21'
-  sound: LEVEL_UP
+  sound: ENTITY_PLAYER_LEVELUP
   items:
     navigator:
       slot: 0
